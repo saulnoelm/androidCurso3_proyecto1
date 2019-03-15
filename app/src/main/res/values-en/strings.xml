@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Directory</string>
+
+    <!--Principal-->
+    <string name="form_name">Full Name</string>
+    <string name="form_date">Birthdate</string>
+    <string name="form_phone">Phone</string>
+    <string name="form_email">Email</string>
+    <string name="form_description">Contact description</string>
+    <string name="submit_next">Next</string>
+
+    <string name="pNombre">pNombre</string>
+    <string name="pFechaDia" translatable="false">pFechaDia</string>
+    <string name="pFechaMes" translatable="false">pFechaMes</string>
+    <string name="pFechaAnio" translatable="false">pFechaAnio</string>
+    <string name="pPhone">pPhone</string>
+    <string name="pEmail">pEmail</string>
+    <string name="pDescription">pDescription</string>
+
+    <string name="error_phone" translatable="false">Invalid phone format</string>
+    <string name="error_email" translatable="false">Invalid email format</string>
+
+    <string name="tv_set_date">Set Date</string>
+    <string name="tv_fecha_nacimiento">Birthdate</string>
+    <string name="btn_siguiente">Next</string>
+    <string name="msg_error">Please complete all fields</string>
+
+    <!--Confirmacion-->
+    <string name="titulo_confirmacion">Confirm Data</string>
+    <string name="description">Description</string>
+    <string name="btn_editar">Edit</string>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Directorio</string>
+
+    <!--Principal-->
+    <string name="form_name">Nombre Completo</string>
+    <string name="form_date">Fecha Nacimiento</string>
+    <string name="form_phone">Teléfono</string>
+    <string name="form_email">Email</string>
+    <string name="form_description">Descripción Contacto</string>
+    <string name="submit_next">Siguiente</string>
+
+    <string name="pNombre">pNombre</string>
+    <string name="pFecha" translatable="false">pFechaDia</string>
+    <string name="pFechaDia" translatable="false">pFechaDia</string>
+    <string name="pFechaMes" translatable="false">pFechaMes</string>
+    <string name="pFechaAnio" translatable="false">pFechaAnio</string>
+    <string name="pPhone">pPhone</string>
+    <string name="pEmail">pEmail</string>
+    <string name="pDescription">pDescription</string>
+
+    <string name="error_phone" translatable="false">Formato de telefono invalido</string>
+    <string name="error_email" translatable="false">Formato de correo inválido</string>
+
+    <string name="tv_set_date">Set Date</string>
+    <string name="tv_fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="msg_error">Favor de llenar todos los campos</string>
+
+    <!--Confirmacion-->
+    <string name="titulo_confirmacion">Confirmar Datos</string>
+    <string name="description">Descripción</string>
+    <string name="btn_editar">Editar</string>
+</resources>

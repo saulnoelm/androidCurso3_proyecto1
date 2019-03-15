@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_directorio"
+    tools:context=".actividades.Confirmacion">
+
+    <LinearLayout
+        android:id="@+id/vlPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvConfirmarDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/titulo_confirmacion"
+            android:textSize="@dimen/text_tittle_size"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:id="@+id/hlNombrecompleto"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvConf_valor_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text=""
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hlFechaNacimiento"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvConf_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/tv_fecha_nacimiento"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvConf_valor_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hlTelefono"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvConf_telefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/form_phone"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvConf_valor_telefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:layout_marginLeft="69dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hlEmail"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvConf_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/form_email"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvConf_valor_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:layout_marginLeft="90dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hlDescripcion"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvConf_descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/description"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvConf_valor_descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vlSecundario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnConf"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="@string/btn_editar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

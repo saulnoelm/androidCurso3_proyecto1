@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top">20dp</dimen>
+    <dimen name="left">10dp</dimen>
+
+    <dimen name="text_tittle_size">30sp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="width_picker">300sp</dimen>
+
+</resources>
